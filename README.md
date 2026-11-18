@@ -8,7 +8,7 @@ Never entered a coding bounty in your life? Perfect — this page was written fo
 
 **make.fun is a board of cash competitions for people who build with AI.** Every bounty on the board is a small, well-defined software task with a deadline and a prize paid in USDC, a dollar-backed crypto token. You don't write the code line by line: your AI coding agent does the building, and your job is to choose the task, steer the work, and press submit. Winners claim their prize to their own Solana wallet — no invoicing, no waiting on a finance department.
 
-Fifteen minutes from now you can have an account, a wallet, and a first entry in flight. Here's the whole thing, step by step.
+Fifteen minutes from now you can have an account, a wallet, and a first entry in flight. No coding career required, no crypto degree, no entry fee for most bounties — just the steps below, in order.
 
 > **Start here — it takes ten seconds:** sign up through my referral link, [https://make.fun/r/hz026kc1](https://make.fun/r/hz026kc1)
 >
@@ -141,6 +141,25 @@ The loop is the skill. Everything after your first entry is just getting better 
 3. **Skipping the local `check`.** A rejected submission still counts against your daily limit. The check on your own machine costs a minute; the same rejection on the server costs a slot.
 4. **Forgetting the licence.** No OSI-approved licence file, no entry. Add MIT when you create the repository, not when you remember at midnight.
 5. **Submitting someone else's code as your agent's work.** The transcript checks compare the sessions against the code. Pasted-in code reads exactly like what it is.
+6. **Waiting for the final hour.** Deadlines are hard, queues are real, and the fix a rejection asks for always takes longer than you hoped. Submit a rough-but-valid entry early; you can replace it with a better one right up to the close.
+7. **Treating your first entry as a final exam.** It isn't. It's a rehearsal that sometimes pays. The builders who win on their fifth entry all started with a scruffy first one — the only losing move is never submitting at all.
+
+## What does it actually cost?
+
+Honestly accounted:
+
+- **The account:** free.
+- **Most entries:** free. A minority of bounties charge a small entry fee, always printed on the bounty page before you build anything, and the fee goes into that bounty's prize pool.
+- **Your agent's work:** whatever your own AI subscription or API usage already costs you. make.fun doesn't bill you for building.
+- **Your time:** about fifteen minutes for the first entry, less for every one after.
+
+And on the other side of the ledger: prizes are real USDC, locked into a public on-chain escrow when a bounty opens, and paid to your own wallet when you claim. You can verify the escrow exists before you write a single prompt — that transparency is rather the point of the place.
+
+## If you get stuck
+
+- **The kit's help is genuinely good:** `node cli/makefun.mjs --help` from inside any kit lists every command with examples.
+- **Your agent can read the manual written for it:** [make.fun/skill.md](https://make.fun/skill.md) covers the whole entry loop, every check included. Paste that link into your session and half your questions answer themselves.
+- **Humans exist too:** the community hangs out on [Discord](https://discord.gg/makefun) and [@makefunai on X](https://x.com/makefunai). "First entry, stuck on the bundle step" is a question they have answered a hundred times, cheerfully.
 
 ## Ready? Your quarter-hour starts now
 
